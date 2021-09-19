@@ -1,0 +1,38 @@
+.download {
+  display: flex;
+  background-color: #f8f8f8;
+  justify-content: center;
+  margin: 1.2em;
+  padding: 6.2em;
+}
+.download__left {
+  width: 25%;
+}
+
+.link {
+  width: 8em;
+  height: 3em;
+  /* object-fit: contain; */
+  margin-top: 2em;
+  margin-right: 1.2em;
+}
+.download__right {
+  margin-left: 3em;
+  text-align: left;
+}
+
+.form > input {
+  padding: 0.8em;
+}
+.form > button {
+  background-color: #6cd6f6; /* Green */
+  border: none;
+  color: white;
+  padding: 0.8em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 0.8em;
+  border-radius: 0.4em;
+}

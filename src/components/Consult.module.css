@@ -1,0 +1,46 @@
+.consult {
+  display: flex;
+  /* border: 2px solid red; */
+  flex-direction: column;
+  align-items: space-evenly;
+  max-width: 100%;
+  margin-top: 4.2em;
+  margin: 4.2em;
+}
+
+.consult__title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.consult__title__left {
+  text-align: left;
+  margin-left: 5.2em;
+}
+
+.consult__title__left > p {
+  font-weight: lighter;
+}
+.consult__title__right {
+  margin-right: 5.2em;
+  margin-top: auto;
+  border: 1px solid #6cd6f6;
+  padding: 1em;
+  border-radius: 0.4em;
+  color: #6cd6f6;
+}
+
+.consult__title__right:hover {
+  cursor: pointer;
+}
+.consult__title__right > p {
+  text-align: center;
+}
+.consult__cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1.2em;
+}
+.consult__cards:hover {
+  cursor: pointer;
+}

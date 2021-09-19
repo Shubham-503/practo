@@ -1,0 +1,36 @@
+.footer {
+  background-color: #28328c;
+  display: flex;
+  justify-content: space-around;
+  padding: 3em;
+  text-align: left;
+  /* font-stretch: expanded; */
+}
+
+.footer__section {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+}
+.footer__section > p {
+  margin-bottom: 0.2em;
+}
+.footer__section > small {
+  margin-top: 0.2em;
+}
+
+.footer__section > small:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer__logo {
+  background-color: #28328c;
+  color: rgb(168, 163, 163);
+  font-weight: 700;
+  padding: 2em;
+  padding-bottom: 3em;
+}
+
+.footer__logo > small {
+  padding: 2em;
+}

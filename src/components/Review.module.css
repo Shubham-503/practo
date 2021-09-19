@@ -1,0 +1,14 @@
+.review {
+  text-align: center;
+  margin: 5em;
+  /* padding: 5em; */
+}
+
+.review > h2 {
+  margin: 2em;
+}
+
+.review > p {
+  font-size: medium;
+  font-weight: 600;
+}

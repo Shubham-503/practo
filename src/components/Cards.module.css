@@ -1,0 +1,21 @@
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #28328c;
+  /* margin-top: 0.5em; */
+  padding: 3.7em;
+}
+
+.image {
+  width: 25%;
+  display: flex;
+  margin-right: 0.5em;
+}
+
+.title {
+  color: white;
+  background-color: #28328c;
+  text-align: left;
+  padding-left: 5em;
+  padding-top: 2em;
+}

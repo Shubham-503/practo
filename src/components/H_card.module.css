@@ -1,0 +1,8 @@
+.h_card {
+  display: flex;
+  justify-content: space-around;
+}
+.h_card__image {
+  display: flex;
+  width: 40%;
+}

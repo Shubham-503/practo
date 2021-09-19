@@ -1,0 +1,15 @@
+.appointment {
+  display: flex;
+  flex-direction: column;
+  margin: 4em;
+}
+
+.appointment__title {
+  text-align: left;
+  margin: 2em;
+}
+
+.appointment__cards {
+  display: flex;
+  /* width: 20%; */
+}
